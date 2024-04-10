@@ -1,3 +1,0 @@
-# primera actividad
-
-primer commit
