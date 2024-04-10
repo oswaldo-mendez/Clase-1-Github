@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista para compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont">
+        <h1>Lista de productos</h1>
+        <div class="form">
+        <label for="fname">productos a comprar:</label><br>
+        <input id="name" placeholder="Nombre del producto" type="text"><br><br>
+        <input id="cantidad" placeholder="cantidad de productos" type="number"><br><br>
+        <input id="marca" placeholder="marca del producto" type="text"><br><br>
+        <button id="bott">Agregar producto</button>
+        </div>
+        <h1>Listado de productos <span id="cantidadlista"> 0</span></h1>
+        <ul id="lista"></ul>
+        <button id="borrar">Borrar lista actual</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
