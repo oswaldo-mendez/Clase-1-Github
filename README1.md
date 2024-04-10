@@ -1,3 +1,3 @@
 # primera actividad
 
-segunda clase
+primer commit
